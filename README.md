@@ -1,0 +1,2 @@
+# Elixir Enum.reduce Unexpected Result
+This example demonstrates a potential issue with using `Enum.reduce` in Elixir when the condition in the reducing function is never met. The code attempts to sum elements in a list that are greater than 3. However, if no elements satisfy this condition, the function returns 0 which may not always be expected behavior.
